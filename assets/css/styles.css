@@ -927,6 +927,14 @@ width: ;
   background-color: #fff;
 }
 
+#job_applicant {
+  display: none;
+}
+
+#care_request {
+  display: none;
+}
+
 @media screen and (max-width: 880px) {
   .contact-box {
     grid-template-columns: 1fr;

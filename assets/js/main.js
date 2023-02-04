@@ -181,3 +181,35 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   }
 });
+
+function autoFill(type) {
+
+  if (type === 'care') {
+    document.getElementById("inquiry_type").selectedIndex = 1;
+    document.getElementById("job_applicant").style.display = "none";
+          document.getElementById("care_request").style.display = "unset";
+  }
+    if (type === 'job') {
+    document.getElementById("inquiry_type").selectedIndex = 2;
+      document.getElementById("care_request").style.display = "none";
+      document.getElementById("job_applicant").style.display = "unset";
+    }
+  
+  }
+  function selectChange(){
+    o = document.getElementById("inquiry_type");
+    val = o.options[o.selectedIndex].value
+    if(val ==='care'){
+        document.getElementById("job_applicant").style.display = "none";
+          document.getElementById("care_request").style.display = "unset";
+    }
+    else  if(val ==='job'){
+        document.getElementById("job_applicant").style.display = "unset";
+          document.getElementById("care_request").style.display = "none";
+    }
+    else {
+         document.getElementById("job_applicant").style.display = "non";
+          document.getElementById("care_request").style.display = "none";
+    }
+
+  }
