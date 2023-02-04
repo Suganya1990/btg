@@ -432,7 +432,7 @@ width: ;
 
 .about--section {
   position: relative;
-  background: url(../images/pexels-andrea-piacquadio-716658.jpg);
+  background: url(../images/pexels-judita-tamošiūnaitė-2026764.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -467,7 +467,7 @@ width: ;
 .about--content {
   /* width: 70vw; */
   text-align: center;
-  background-color: rgba(206, 209, 214, 0.95);
+  background-color: rgba(230, 240, 250, 0.95);
   /* padding: 5rem; */
   padding: 4rem;
 }
@@ -1233,6 +1233,7 @@ input.button:hover {
     text-align: center;
     font-size: 3rem;
   }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -1329,7 +1330,14 @@ input.button:hover {
     transform: translateX(-50%); */
     top: 20%;
 
+
   }
+
+  .lg--service {
+    display: none;
+  }
+
+  .lg--service--mobile {}
 
   .certifications {
     grid-template-columns: repeat(1, 1fr);
@@ -1349,6 +1357,10 @@ input.button:hover {
   .footer--bottom {
     text-align: center;
     padding: 0 1.5rem;
+  }
+
+  .lg--service--mobile {
+    display: none;
   }
 }
 
@@ -1487,4 +1499,50 @@ input.button:hover {
     ;
   }
 
+
+
+
+}
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #26384e;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  transition-delay: 0.2s;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #889db8;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  transition-delay: 0.3s;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 520px) {
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
