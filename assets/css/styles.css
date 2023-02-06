@@ -1090,6 +1090,14 @@ input.button:hover {
   display: none;
 }
 
+::-webkit-scrollbar-track-piece:start {
+  background: transparent url('images/backgrounds/scrollbar.png') repeat-y !important;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background: transparent url('images/backgrounds/scrollbar.png') repeat-y !important;
+}
+
 /* ===========================contact us end=========================== */
 
 
@@ -1399,7 +1407,7 @@ input.button:hover {
   }
 
   ::-webkit-scrollbar-thumb {
-    background:#bd0000;;
+
     border-radius: 25px;
   }
 
@@ -1618,14 +1626,13 @@ input.button:hover {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #bd0000;
-    ;
+    background-color: transparent;
     border-radius: 25px;
   }
 
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
     background: #bd0000;
-  }
+  } */
 
   .containerM {
     display: flex;
@@ -1684,4 +1691,11 @@ input.button:hover {
     text-align: center;
   }
 
+  ::-webkit-scrollbar-track-piece:start {
+    background: transparent url('images/backgrounds/scrollbar.png') repeat-y !important;
+  }
+
+  ::-webkit-scrollbar-track-piece:end {
+    background: transparent url('images/backgrounds/scrollbar.png') repeat-y !important;
+  }
 }
