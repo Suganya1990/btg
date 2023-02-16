@@ -93,6 +93,7 @@ h4 {
   color: white;
   font-weight: 400;
   font-family: var(--font-primary);
+  width: 250px;
 }
 
 .btn--primary::before {
@@ -432,7 +433,7 @@ width: ;
 
 .about--section {
   position: relative;
-  background: url(../images/pexels-judita-tamošiūnaitė-2026764.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -558,7 +559,7 @@ width: ;
   display: none;
   height: 100%;
   width: 100%;
-  background: url(../images/istockphoto-1092112802-612x612.jpeg);
+  background: url(../images/old-senior-home-care-patient-nurse-old-senior-home-care-nurse-helping-patient-to-dress-shoes-212490821.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -8,6 +9,12 @@
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
       <!-- <link rel="shortcut icon" href="assets/images/favicon2.png" type="image/x-icon"> -->
       <script src="https://kit.fontawesome.com/11b166fcfa.js" crossorigin="anonymous"></script>
+         <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("/pages/services.html"); 
+    });
+    </script>
       <title>BTG</title>
    </head>
    <body>
@@ -36,7 +43,9 @@
                   </div>
                   
                   <div>
-                     <a href="#contactUs" onclick="autoFill('care')"class="btn--primary">Book a consultation</a>
+                     <a href="#contactUs" onclick="autoFill('care')"class="btn--primary">Consultation</a>
+                     <a href="./pages/services.html" 
+                     class="btn--primary">Services</a>
                      <a href="#contactUs" onclick="autoFill('job')" class="btn--primary">Join our team</a>
                   </div>
                </div>
@@ -48,97 +57,7 @@
       </section>
 
 
-      <section class="lg--service--section section--padding" id="lg--service--section">
-         <div class="container lg--service">
-            <div class="title">
-               <h2 class="heading">Customized Services</h2>
-               <p class="service--description">We offer customized home support services to meet all client needs and budgets.  We tackle each task with professionalism, respect and an enthusiasm for what we do.</p>
-            </div>
-            <div class="service--navs">
-               <div class="service--nav active" id="deep--btn">
-                  <div class="snav--content">
-                     <img class="snav--img"src="assets/images/nurse.png" alt="">
-                     <h4>Hospital & Facility Care </h4>
-                  </div>
-               </div>
-               <div class="service--nav" id="scheduled--btn">
-                  <div class="snav--content">
-                     <img class="snav--img" src="assets/images/personal-assistant.png" alt="">
-                     <h4>Home Care</h4>
-                  </div>
-               </div>
-               <div class="service--nav" id="one-time--btn">
-                  <div class="snav--content">
-                     <img class="snav--img" src="assets/images/healthy-food (1).png" alt="">
-                     <h4>Dietary Aide</h4>
-                  </div>
-               </div>
-               <div class="service--nav" id="moving--btn">
-                  <div class="snav--content">
-                     <img class="snav--img"src="assets/images/maid.png" alt="">
-                     <h4>Housekeeping</h4>
-                  </div>
-               </div>
-            </div>
-            <div class="lg--service--container">
-               <div class="top--border"></div>
-               <div class="lg--service--content--cover">
-                  <div class="lg--deep--service active" id="lg--deep--service">
-                     <div class="lg--service--content">
-                        <h3>Isolation is a leading cause of depression in seniors. Our carefully matched, trusted caregivers offer social interaction for physical and mental well-being.</h3>
-                     </div>
-                  </div>
-                  <div class="lg--scheduled--visits" id="lg--scheduled--visits">
-                     <div class="lg--service--content">
-                        <h3>A nutritious diet comes with many health benefits. Our caregivers love to prepare delicious meals, including specific ethnic dishes if requested.</h3>
-                     </div>
-                  </div>
-                  <div class="lg--one--time" id="lg--one--time">
-                     <div class="lg--service--content">
-                        <h3>We offer light housekeeping services to help our clients with daily activities. This way, seniors can stay at home in a safe and clean environment.</h3>
-                     </div>
-                  </div>
-                  <div class="lg--moving" id="lg--moving">
-                     <div class="lg--service--content">
-                        <h3>For optimal health, our Registered Nurses and Licensed/Registered Practical Nurses help prevent illness and increase comfort at home.</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
- 
-<section class="container containerM lg--service--mobile">
-      <div class="card">
-        <div class="image">
-          <img src="assets/images/nurse.png" alt="" />
-        </div>
-        <h2>Hospital and Facility Care</h2>
-        <p>We are able to offer releief and emergency staffing to help with unforseen load.</p>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="/assets/images/personal-assistant.png" alt="" />
-        </div>
-        <h2>Home Care</h2>
-        <p>Isolation is a leading cause of depression in seniors. Our carefully matched, trusted caregivers offer social interaction for physical and mental well-being.</p>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="/assets/images/healthy-food (1).png" alt="" />
-        </div>
-        <h2>Dietary Aide</h2>
-        <p>A nutritious diet comes with many health benefits. Our caregivers love to prepare delicious meals, including specific ethnic dishes if requested.</p>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="/assets/images/housekeeping.png" alt="" />
-        </div>
-        <h2>House Keeping</h2>
-        <p>We offer light housekeeping services to help our clients with daily activities. This way, seniors can stay at home in a safe and clean environment.</p>
-      </div>
-    </section>
-                  
-      </section>
+     <div id="includedContent"></div>
       <section class="about--section  section--padding" id="about--section">
          <div class="about container">
             <!-- <div class="container"> -->
@@ -220,6 +139,6 @@
          </div>
       </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="assets/js/main.js"></script>
+      <script src="../js/main.js"></script>
    </body>
 </html>

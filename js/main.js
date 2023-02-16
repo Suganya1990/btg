@@ -149,3 +149,6 @@ function autoFill(type) {
     }
 
   }
+      $(function(){
+      $("#includedContent").load("../pages/services.html"); 
+    });
