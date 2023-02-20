@@ -72,7 +72,7 @@ h4 {
 }
 
 .section--padding {
-  padding-block: 10rem;
+  padding-block: 8rem;
 }
 
 .btn--primary {
@@ -479,7 +479,7 @@ width: ;
   font-size: 1.25rem;
   margin-bottom: 1.2rem;
   color: var(--text-color-second);
-  font-family: var(--font-secondary);
+  font-family: 'Poppins', sans-serif !important;
   line-height: 2rem;
 }
 
@@ -1254,6 +1254,7 @@ input.button:hover {
   .about--content p {
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
@@ -1639,6 +1640,10 @@ input.button:hover {
 
   .quote--form h2 {
     font-size: 2rem;
+  }
+
+  .img-banner {
+    display: none;
   }
 
   .footer {
