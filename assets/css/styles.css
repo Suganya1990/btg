@@ -205,11 +205,11 @@ h4 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 72px;
+  height: 40px;
   background: rgba(15, 15, 30, .25);
   opacity: 1;
   z-index: 9;
-  padding: 17px 0 16px;
+  padding: 2rem;
   transition: all .3s;
 
   overflow: hidden;
@@ -223,7 +223,7 @@ h4 {
 }
 
 .logo {
-  color: slategray;
+  color: #bd0000;
   display: inline-block;
   margin-left: 2rem;
   font-size: 1.5em;
@@ -246,7 +246,7 @@ h4 {
 }
 
 .nav--items a {
-  color: #313030;
+  color: white;
   display: inline-block;
   margin-left: 2rem;
   font-size: 1.5em;
@@ -828,6 +828,7 @@ width: ;
 
 }
 
+
 /* Contact Us - Suganya edit */
 .container--contactUs {
   position: relative;
@@ -883,6 +884,12 @@ width: ;
   max-height: 100%;
 
 
+}
+
+
+.img-banner {
+  width: 100vw;
+  height: 50vh;
 }
 
 .right {
@@ -992,12 +999,27 @@ width: ;
   display: flex;
 }
 
+.phone {
+  width: 20px;
+  padding-right: 5px;
+}
+
 
 .footer--logo {
   width: 100px;
 }
 
+.phone--link {
+  text-decoration: none;
+  color: #bd0000;
 
+}
+
+.phone-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
 
 /* ===========================contact us=========================== */
 
@@ -1097,6 +1119,45 @@ input.button:hover {
 
 ::-webkit-scrollbar-track-piece:end {
   background: transparent url('images/backgrounds/scrollbar.png') repeat-y !important;
+}
+
+.contact-section {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  width: 100vw;
+
+}
+
+.contact-container {
+  /* border: 10px solid pink; */
+  height: 80vh;
+  padding: 2rem;
+
+}
+
+.contact-contact-box {
+  /* border: 12px solid purple; */
+  height: 100%;
+  padding: 2rem;
+
+}
+
+.contact-section--padding {
+  padding: 6rem;
+}
+
+.contact-btn {
+  width: 200px;
+  border-radius: 5px;
+
+}
+
+.contact-right {
+  font-size: 2rem;
 }
 
 /* ===========================contact us end=========================== */

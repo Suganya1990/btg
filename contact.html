@@ -1,21 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets/css/styles.css">
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-      <!-- <link rel="shortcut icon" href="assets/images/favicon2.png" type="image/x-icon"> -->
-     <script src="https://kit.fontawesome.com/11b166fcfa.js" crossorigin="anonymous"></script>
-         <script src="jquery.js"></script> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-      <title>BTG</title>
-   </head>
-   <body>
-
-        <div class="navbar" id="navbar">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>BTG</title>
+</head>
+<body >
+      <div class="navbar" id="navbar">
         <div class="container">
             <div class="nav navbar sticky-top">
              <a href="../index.html" class="logo">
@@ -25,6 +20,7 @@
                     <div class="close" id="close">
                         <i class="ri-close-line"></i>
                     </div>
+                    <a class="nav--item" href="/index.html">Home</a>
                     <a class="nav--item" href="/services.html">Services</a>
                     <a class="nav--item" href="/contact.html">Contact Us</a>
                 </div>
@@ -35,62 +31,35 @@
         </div>
         
       </div>
+      <!-- <section class="contact--hero--section ">
+        <div class="container">
+        <h1>CONTACT US FOR MORE INFORMATION</h1>
+        <a href="" class="btn--primary">Book a consultation</a>
+    </div>
+      </section> -->
 
-      <section class="hero--section" id="hero">
-         <div class="hero">
-            <div class="container ">
-               <div class="hero--content--cover">
-                  <div class="hero--text--container">
-                     <h1> Bridging <br/>the<br/> Gap</h1>
-                    
-                     <h3 class="hero--tagline"> within healthcare </h3>
-                      <hr class="separator-line thick expanded"/>
-                  </div>
-                  
-                  <div>
-                     <a href="#contactUs" onclick="autoFill('care')"class="btn--primary">Consultation</a>
-                     <a href="/services.html" 
-                     class="btn--primary">Services</a>
-                     <a href="#contactUs" onclick="autoFill('job')" class="btn--primary">Join our team</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <video class="hero--video" muted autoplay loop playsinline>
-            <source src="assets/videos/BTGVIideo.mov" type="video/mp4">
-         </video>
-      </section>
-
-
-     <div id="includedContent"></div>
-      <section class="about--section  section--padding" id="about--section">
-         <div class="about container">
-            <!-- <div class="container"> -->
-            <div class="about--content">
-               <h2>Trusted Care </h2>
-               <!-- <p>In response to the COVID-19 pandemic, our top priority at BTG is the health and safety of our clients, our caregivers, and all those who come into contact with them. All of our caregivers have been screened as closely as possible, undergo daily monitoring, and are outfitted with PPE as availability allows. We also follow all state and federal mandates as well as the CDC/WHO public health guidelines as they evolve to help contain the spread of the virus.</p> -->
-               <p>We believe in giving clients the best possible support and service. A personalized approach that meets and exceeds their expectations.</p>
-               <p>BTG is meant to provide each client with the additional support they need. We deliver the best quality care and attention.</p>
-               <p>Getting the right services can be challenging. You'll have a lot questions, but we are here to walk you through the entire process. Call us today for a FREE consultation. </p>
-               <a href="#contactUs" class="btn--primary">Learn more</a>
-            </div>
-         </div>
-         <!-- </div> -->
-      </section>
-
-<div class="img-container">
-
-   <img  class="img-banner" src="/assets/images/seniorWomen.jpg" alt="">
-</div>
-
-      <!---Contact-->
-      <section class="section--padding" >
-         <div class="container">
-            <div class=" contact-box">
+      <!-- <section class="contact-section section section--padding">
+       <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+      </section> -->
+        <section class="contact-section contact-section--padding" >
+         <div class="contact-container">
+            <div class=" contact-contact-box contact-box">
                <div class="left">
-                  <img src="/assets/images/contactIMG.jpg" alt="">
+                  <img src="/assets/images/Adult-day-centers-768x398-1.jpg" alt="">
                </div>
-               <div class="right" id="contactUs">
+               <div class="contact-right right" id="contactUs">
                   <h2>Contact Us</h2>
                   <form action="https://formsubmit.co/info@btghealthcare.com" method="POST">
                   <input type="text" class="field" placeholder="Your Name">
@@ -104,7 +73,7 @@
                   <textarea id="care_request" placeholder="Message" class="field"></textarea>
                   <!-- <label for="files">Select file</label> -->
                   <input type='file' class="field" id="job_applicant" title=" "/>
-                  <button type="submit" class="btn">Send</button>
+                  <button type="submit" class="contact-btn btn">Send</button>
                   </form>
                </div>
             </div>
@@ -112,7 +81,7 @@
          
       </section>
     
-   
+
       <section class="footer--section" id="footer--section">
         <div class="container">
         <div class="footer">
@@ -150,8 +119,6 @@
             </div>
         </div>
     </section>
-    
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="../js/main.js"></script>
-   </body>
+    <script src="../assets/js/main.js"></script>
+</body>
 </html>
