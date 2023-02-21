@@ -90,7 +90,7 @@
                </div>
                <div class="right" id="contactUs">
                   <h2>Contact Us</h2>
-                  <form  action="/my-form/submit">
+                  <form  method="POST" action="https://formsubmit.co/info@btghealthcare.com" enctype="multipart/form-data">
                   <input type="text" class="field" placeholder="Your Name">
                   <input type="text" class="field" placeholder="Your Email">
                   <input type="text" class="field" placeholder="Phone">
@@ -101,7 +101,7 @@
                   </select>
                   <textarea id="care_request" placeholder="Message" class="field"></textarea>
                   <!-- <label for="files">Select file</label> -->
-                  <input type='file' class="field" id="job_applicant" title=" "/>
+                   <input type="file" name="attachment" class="field" accept="application/pdf, application/msword">
                   <button type="submit" class="btn">Send</button>
                   </form>
                   <!-- <form action="contact.php" method="post">
