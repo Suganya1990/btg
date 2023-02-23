@@ -135,7 +135,9 @@ function autoFill(type) {
   function selectChange(){
     o = document.getElementById("inquiry_type");
     val = o.options[o.selectedIndex].value
-    if(val ==='care'){
+    console.log(val)
+    if (val === 'care') {
+      
         document.getElementById("job_applicant").style.display = "none";
           document.getElementById("care_request").style.display = "unset";
     }
@@ -149,6 +151,4 @@ function autoFill(type) {
     }
 
   }
-      $(function(){
-      $("#includedContent").load("../pages/services.html"); 
-    });
+      
