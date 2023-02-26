@@ -91,16 +91,17 @@
                <div class="right" id="contactUs">
                   <h2>Contact Us</h2>
                   <form  method="POST" action="https://formsubmit.co/info@btghealthcare.com" enctype="multipart/form-data">
-                  <input type="text" class="field" placeholder="Your Name">
-                  <input type="email" class="field" required placeholder="Your Email">
-                  <input type="tel" class="field" required placeholder="Phone">
+                  <input type="text" name="name" class="field" required placeholder="Your Name">
+                  <input type="email" name="email" class="field" required placeholder="Your Email">
+                  <input type="tel" name="phone" class="field" required placeholder="Phone">
                   <select class="field" name="inquiry_type" id="inquiry_type" onchange='selectChange()' required >
                      <option value selected disabled>Please Select One</option>
                      <option value="care">Care</option>
                      <option value="job"> Job</option>
                   </select>
-                  <textarea id="care_request" placeholder="Message" class="field"></textarea>
+                  <!-- <textarea id="care_request" placeholder="Message" class="field"></textarea> -->
                 
+            <input type="text" name="textarea" placeholder="Message" id="care_request"  class="field" required>
                   <!-- <label for="files">Select file</label> -->
                    <input type="file" id="job_applicant" name="attachment" class="field" accept="application/pdf, application/msword">
                      <!-- <input type="hidden" name="_next" value="www.btghealthcare.com"> -->
@@ -146,7 +147,7 @@
         <div class="footer">
             <div class="company">
                <!-- <img src="" alt="Logo">BTG -->
-                  BTG
+                   <a href="../index.html" class="logo"><img src="/assets/images/btg-high-resolution-logo-color-on-transparent-background.png " alt=""></a>
                 <!-- <p>sample@gmail.com</p>
                 <p>705 995 4102</p> -->
                 <!-- <a href="" class="btn--white">Book a consultation</a> -->
