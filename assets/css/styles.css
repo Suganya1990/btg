@@ -62,7 +62,7 @@ h4 {
 }
 
 .section--padding {
-  padding-block: 8rem;
+  padding-block: 7rem;
 }
 
 .btn--primary {
@@ -893,7 +893,7 @@ width: ;
   position: relative;
   padding: 0 0 10px;
   margin-bottom: 10px;
-  font-size: 1.5em;
+
 }
 
 .right h2:after {
