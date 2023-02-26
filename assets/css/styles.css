@@ -4,14 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: 'Poppins'; */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Overpass', sans-serif; */
-  /* font-family: 'Esteban', serif; */
+
   scroll-behavior: smooth;
-  /* letter-spacing: 1.5px;
-  line-height: 1.5; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
@@ -26,11 +20,7 @@
   --color-primary: rgba(255, 240, 230, 0.9);
   --color-secondary: #E4B7a0;
 
-  --font-primary: Futura PT W02 Heavy,
-    Futura,
-    Trebuchet MS,
-    Arial,
-    sans-serif;
+  --font-primary: Futura;
 
   --font-secondary: Larsseit-Bold,
     sans-serif;
