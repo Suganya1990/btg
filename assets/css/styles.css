@@ -20,7 +20,7 @@
   --color-primary: rgba(255, 240, 230, 0.9);
   --color-secondary: #E4B7a0;
 
-  --font-primary: Futura;
+  --font-primary: Futura, 'Jost';
 
   --font-secondary: Larsseit-Bold,
     sans-serif;
